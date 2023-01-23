@@ -1,0 +1,7 @@
+.bg-img{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfVL_LaagcHzJxwHvP4orQDMEQUqkv8uoxH52rsRUchN3g14oPXbNRvz4RNme_gHZUukw&usqp=CAU');
+    /* background-position: center; */
+    /* background-size: cover; */
+    height: 100%;
+    width: 100%;
+}
