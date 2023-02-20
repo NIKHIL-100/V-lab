@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 
@@ -5,10 +6,12 @@ import React from 'react';
 const Navbar = () => {
   return (
 
-    <nav className="navbar  navbar-expand-lg  navbar-light  bg-light  fixed-top ">
-  <a className="navbar-brand px-4" href="#">
+    <nav className="navbar  navbar-expand-lg  navbar-light  bg-light  fixed-top  ">
+ 
+    <a className="navbar-brand px-4" href="#">
     V-Lab
   </a>
+
   <button
     className="navbar-toggler"
     type="button"
@@ -43,6 +46,9 @@ const Navbar = () => {
           Contact
         </a>
       </li>
+
+
+      
       {/* <li className="nav-item dropdown">
         <a
           className="nav-link dropdown-toggle"
@@ -66,6 +72,9 @@ const Navbar = () => {
           </a>
         </div>
       </li> */}
+
+
+      
     </ul>
   </div>
 </nav>

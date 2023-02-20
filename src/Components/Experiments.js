@@ -2,8 +2,7 @@ import React from "react";
 
 const Experiments = (props) => {
   return (
-                          
-    <div className="pt-5"  id="Experiments">                
+    <div className="pt-5" id="Experiments">
       <h1 className="text-center pt-5">
         <u>EXPERIMENTS</u>
       </h1>
@@ -11,21 +10,21 @@ const Experiments = (props) => {
       <div className="container my-5  d-flex justify-content-center bg-dark">
         <div className="container-fluid text-white m-5  ">
           <div className="container text-center  p-2">
-          {props.title}
+            {props.title}
             Experiment No. 1 Title: Study of TTL gates
           </div>
           <div className="container p-3">
-          {props.aim}
+            {props.aim}
             Aim: To verify truth table of various gates
           </div>
           <div className="container p-3">
-          {props.apparatus}
+            {props.apparatus}
             Apparatus: Power Supply, multimeter, Bread Board, (IC 7400, 7402,
             7408, 7432,7404, 7486) & Wires.
           </div>
 
           <div className="container p-3">
-          {props.theory}
+            {props.theory}
             Theory: The TTL Gates are nothing but Transistor-Transistor Logic,
             which is introduced by the Texas instruments in 1964. It is widely
             used family of digital devices. It is a fast, inexpensive & easy to
@@ -51,24 +50,24 @@ const Experiments = (props) => {
             class="embed-responsive embed-responsive-16by9 "
             className="container w-100 d-flex justify-content-center p-0  position-relative"
           >
-            <iframe width="725" height="453" title='andGate' frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+            <iframe
+              width="725"
+              height="453"
+              title="andGate"
+              frameborder="0"
+              marginwidth="0"
+              marginheight="0"
+              scrolling="no"
               class="embed-responsive-item"
               src="https://www.tinkercad.com/embed/hzFMfQH9PqU?editbtn=1"
               allowfullscreen
+              style={{resize:"both",overflow:"auto"}}
+              // style={{objectFit:'cover'}}
             ></iframe>
           </div>
-
-         
-
         </div>
       </div>
-
-
- 
-
     </div>
-
-    
   );
 };
 

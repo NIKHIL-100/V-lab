@@ -26,6 +26,40 @@ const Simulation = () => {
 </div>
 */}
 
+
+
+
+
+<Experiments eid="exp3"
+
+title="asdfghjkl"
+aim="qwertyuiopasdfghjk"
+apparatus="ufgcnb "
+theory="
+as NOR gate.
+Procedure:
+
+1) Connect circuit as shown in circuit diagram.
+
+2) Apply the supply to circuit as pin 14 to +VCC & pin 7 to ground.
+3) Note down the o/p voltage by multimeter.
+
+4) Verify the truth table by observed readings.
+
+Conclusion: . . |
+Thus we obtained basic logic gates using universal NAND and NOR gates and
+verified the truth table.
+"
+
+simsrc="https://www.tinkercad.com/embed/hzFMfQH9PqU?editbtn=1"
+/>
+
+
+
+
+
+
+
 <Experiments eid="exp3"
 
 title="asdfghjkl"
@@ -81,17 +115,6 @@ B
 YxA+B"
 simsrc="https://www.tinkercad.com/embed/hzFMfQH9PqU?editbtn=1"
 />
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
     

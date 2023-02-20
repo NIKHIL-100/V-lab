@@ -6,16 +6,19 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Experiments from './Components/Experiments';
+import { Home2 } from './Components/Home2';
 
 
 function App() {
   return (
    <>
-   <Navbar/>   
+   <Navbar/>  
+   <Home2/> 
    <Home/>
     <Experiments/>
    <About/>
    <Contact/>
+   
    
    </>
   );
