@@ -1,8 +1,8 @@
 import React from "react";
-import './Home2.css';
+import './Home.css';
 import TypewriterComponent from "typewriter-effect";
 
-export const Home2 = () => {
+ const Home = () => {
   return (
     <div className=" home2 home2__img " id="pic1">
     {/* <div className=" home2 home2__img " id="pic2"> */}
@@ -37,3 +37,5 @@ export const Home2 = () => {
     </div>
   );
 };
+
+export default Home;

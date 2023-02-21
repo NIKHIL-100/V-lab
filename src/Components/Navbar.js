@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 
 
@@ -8,9 +9,14 @@ const Navbar = () => {
 
     <nav className="navbar  navbar-expand-lg  navbar-light  bg-light  fixed-top  ">
  
-    <a className="navbar-brand px-4" href="#">
+    <HashLink to={`/#`} className="nav-link  text-dark px-4 " >
+        V-Lab</HashLink>
+    
+{/*
+    <a className="nav-link  text-dark px-4" href="#">
     V-Lab
   </a>
+ */}
 
   <button
     className="navbar-toggler"
@@ -26,25 +32,37 @@ const Navbar = () => {
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
     <ul className="navbar-nav ">
       <li className="nav-item active">
+      <HashLink to={`/#`} className="nav-link  text-dark px-4" >
+              Home</HashLink>
+              {/* 
         <a className="nav-link  text-dark px-4 " href="#">
           Home 
-          {/* <span className="sr-only">(current)</span> */}
-        </a>
+          </a>
+           */}
       </li>
       <li className="nav-item">
+      <HashLink to={`/#Experiments`} className="nav-link   text-dark px-4 " >
+      Experiments</HashLink>
+      {/*
         <a className="nav-link  text-dark  px-4" href="#Experiments">
           Experiments
         </a>
+         */}
       </li>
       <li className="nav-item">
-        <a className="nav-link  text-dark px-4" href="#About">
+      <HashLink to={`/#About`} className="nav-link  text-dark px-4 " >
+              About</HashLink>
+        {/*<a className="nav-link  text-dark px-4" href="#About">
           About 
-        </a>
+        </a> */}
       </li>
       <li className="nav-item">
-        <a className="nav-link  text-dark px-4 " href="#Contact">
+      <HashLink to={`/#Contact`} className="nav-link  text-dark px-4 " >
+      Contact
+    </HashLink>
+       {/* <a className="nav-link  text-dark px-4 " href="#Contact">
           Contact
-        </a>
+        </a> */}
       </li>
 
 

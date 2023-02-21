@@ -1,8 +1,8 @@
 import React from "react";
 
-const Experiments = (props) => {
+const Experiment1 = (props) => {
   return (
-    <div className="pt-5" id="Experiments">
+    <div className="pt-5" id="Experiment1">
       <h1 className="text-center pt-5">
         <u>EXPERIMENTS</u>
       </h1>
@@ -44,6 +44,19 @@ const Experiments = (props) => {
             Logical Expression=A.B
           </div>
 
+          <div className="container p-3">
+            {props.procedure}
+            Procedure : 1. Make connection as per pin out diagram. Give required
+            supply voltage. 2. Give input by trying combinations or.cases
+            mentioned. 3. Observe output voltage reading. 4. Verify the
+            practical truth table with theoretical truth table.
+          </div>
+
+          <div className="container p-3">
+            {props.conclusion}
+            Conclusion :
+          </div>
+
           <div className="container p-3">Simulation</div>
 
           <div
@@ -61,8 +74,8 @@ const Experiments = (props) => {
               class="embed-responsive-item"
               src="https://www.tinkercad.com/embed/hzFMfQH9PqU?editbtn=1"
               allowfullscreen
-              style={{resize:"both",overflow:"auto"}}
-              // style={{objectFit:'cover'}}
+            style={{resize:"both",overflow:"auto"}}
+
             ></iframe>
           </div>
         </div>
@@ -71,4 +84,4 @@ const Experiments = (props) => {
   );
 };
 
-export default Experiments;
+export default Experiment1;

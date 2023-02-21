@@ -1,0 +1,79 @@
+.exp__img{
+    /* background-image: url("https://i.pinimg.com/564x/5a/40/3e/5a403e5722a36a5a34016af3ad279c2f.jpg"); */
+    background-image: url("https://cdn.svgator.com/images/2022/06/SVG-background-animated.gif"); 
+    /* background-image: url("");  */
+    /* background-image: url("https://i.pinimg.com/originals/7b/df/16/7bdf164aaed98d4336084d0b33e3e588.gif");  */
+    /* background-image: url("https://i.pinimg.com/originals/10/69/a7/1069a7113c399a9a9ca3185769c59134.gif");  */
+    /* background-image: url("https://i.pinimg.com/originals/92/71/04/9271046581cc1dd64eea848f00fac482.gif");  */
+    /* background-image: url("https://cdn.svgator.com/images/2022/06/SVG-background-animation.gif");  */
+    /* background-image: url("https://cdn.svgator.com/images/2022/06/use-svg-as-background-image-particle-strokes.svg"); */
+    /* background-image: url("https://cdn.dribbble.com/users/3960415/screenshots/8995365/work.gif"); */
+
+
+    /* background-size: contain; */
+    background-size: 30%;
+    background-repeat: repeat;
+}
+
+
+
+.exp__bg{
+    /* background-image: url(""); */
+
+    /* educational gif */
+    /* background-image: url("https://cdn.dribbble.com/users/1079204/screenshots/15845625/media/a8f2ea854fc402d02f54c7fb35b83c93.gif"); */
+    /* background-image: url("https://www.occamagenciadigital.com/hs-fs/hubfs/img_hero_landing_roseta_bottom-1.gif?width=285&height=204&name=img_hero_landing_roseta_bottom-1.gif"); */
+    /* background-image: url("https://cdn.dribbble.com/users/1079204/screenshots/15859821/media/45d1d6e5a1ca7f6ce92291074dceb7af.gif"); */
+    /* background-image: url("https://cdn.dribbble.com/users/1079204/screenshots/15874903/media/e3e62a6b0761d382cc079cb3f38e4287.gif"); */
+    /* background-image: url("https://cdn.dribbble.com/users/3960415/screenshots/8995365/work.gif"); */
+    background-size: 25%;
+    
+
+    /* animated bg gif */
+    /* background-image: url("https://i.pinimg.com/originals/92/71/04/9271046581cc1dd64eea848f00fac482.gif");  */
+    /* background-image: url("https://i.pinimg.com/originals/1a/bb/83/1abb83ba5a31bf2d1893fb95f24cb807.gif"); 
+    background-size: 25%; */
+    /* background-image: url("https://thumbs.gfycat.com/RawMiserableArachnid-size_restricted.gif"); 
+    background-size: 20%; */
+
+    background-image: url("https://cdn.svgator.com/images/2022/06/use-svg-as-background-image-particle-strokes.svg");
+    /* background-image: url("https://cdn.svgator.com/images/2022/06/SVG-background-animation.gif");  */
+
+    /* background-image: url("https://cdn.svgator.com/images/2022/06/SVG-background-animated.gif");  */
+    /* background-size: contain; */
+    /* background-repeat: repeat; */
+}
+
+.card{
+/* background: whitesmoke; */
+transform: scale(0.9);
+/* opacity: 0.9; */
+box-shadow: 2px 2px 20px 2px #F0C27B;
+
+}
+.card:hover{
+
+    opacity: 1;
+    transform: scale(1);
+    transition: ease-in-out;
+}
+
+ .card .body{
+    opacity: 0.2;
+}
+
+
+
+
+.card button{
+    background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+@media only screen and (max-width:425px){
+    .exp__bg{
+        background-position: 50%;
+    } 
+}
